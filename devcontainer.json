@@ -1,0 +1,12 @@
+{
+  "name": "Flask_web",
+  "dockerComposeFile": "compose.yml",
+  "service": "web",
+  "workspaceFolder": "home/user/dev",
+  "extensions": [
+    "ms-python.python"
+  ],
+  "settings": {
+    "editor.tabSize": 2
+  }
+}

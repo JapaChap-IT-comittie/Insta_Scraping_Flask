@@ -1,0 +1,14 @@
+version: '3'
+services:
+  flask-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'flask-web'
+    ports:
+      - "5001:5000"
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/usr/src/app
+    command: flask run --host=0.0.0.0

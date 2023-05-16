@@ -1,9 +1,11 @@
 ###### Requirements without Version Specifiers ######`
 Flask
 Jinja2
-requests
 gunicorn
-python-dotenv
 prettytable
 pandas
+selenium
+chromedriver-binary
+beautifulsoup4
+chromedriver-binary-auto
 ###### Requirements with Version Specifiers ######`
